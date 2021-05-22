@@ -13,9 +13,8 @@ const todoReducer = (state = initialState, action) => {
     case DELETE :
       newState.splice(action.index, 1)
       return newState;
-
     default:
-   return state
+      return state
   }
 }
 
